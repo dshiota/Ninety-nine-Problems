@@ -1,6 +1,8 @@
 (ns clojure99.test.core
   (:use [clojure99.core])
-  (:use [clojure.test]))
+  (:use [clojure99.list])
+  (:use [clojure.test])
+  (:use [clojure.pprint]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(load "test_list")
+
